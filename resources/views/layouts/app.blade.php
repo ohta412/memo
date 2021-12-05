@@ -19,7 +19,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    @auth
+    @guest
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C600BW24BH"></script>
     <script>
@@ -29,7 +29,7 @@
 
         gtag('config', 'G-C600BW24BH');
     </script>
-    @endauth
+    @endguest
 </head>
 <body>
     <div id="app">
